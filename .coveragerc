@@ -1,0 +1,6 @@
+[report]
+include =
+    src/kup/*
+omit =
+    */test*
+    */upgrades/*
