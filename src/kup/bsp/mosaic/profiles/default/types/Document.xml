@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object
+    i18n:domain="plone"
+    meta_type="Dexterity FTI"
+    name="Plone Site"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+  <property name="default_view">layout_view</property>
+  <property name="view_methods" purge="true">
+    <element value="layout_view" />
+  </property>
+</object>
