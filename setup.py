@@ -21,7 +21,7 @@ setup(
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Plone",
-        "Framework :: Plone :: 5.1rc1",
+        "Framework :: Plone :: 5.1",
         "Programming Language :: Python",
         "Programming Language :: Python :: 2.7",
         "Operating System :: OS Independent",
@@ -39,9 +39,8 @@ setup(
     zip_safe=False,
     install_requires=[
         'plone.api',
-        'Products.GenericSetup>=1.8.2',
+        'Products.CMFPlone>=5.1rc1',
         'setuptools',
-        'z3c.jbot',
     ],
     extras_require={
         'test': [
@@ -51,7 +50,6 @@ setup(
             # plone_coredev tests as of 2016-04-01.
             'plone.testing>=5.0.0',
             'plone.app.contenttypes',
-            'plone.app.robotframework[debug]',
         ],
     },
     entry_points="""

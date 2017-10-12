@@ -6,33 +6,16 @@
 kup.bsp.mosaic
 ==============
 
-Tell me what your product does
+This is an example addon for Mosaic customization on Plone 5.1.x
+
+Hint :look at the commit history and diffs.
 
 Features
 --------
 
-- Can be bullet points
-
-
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
+- set ``mosaic_layout`` as default for Document
+- custom site layout for Document
+- switch off default Document layout
 
 
 Installation
@@ -56,14 +39,12 @@ Contribute
 
 - Issue Tracker: https://github.com/collective/kup.bsp.mosaic/issues
 - Source Code: https://github.com/collective/kup.bsp.mosaic
-- Documentation: https://docs.plone.org/foo/bar
 
 
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
+If you are having issues, please let me know: jens@bluedynamics.com
 
 
 License
