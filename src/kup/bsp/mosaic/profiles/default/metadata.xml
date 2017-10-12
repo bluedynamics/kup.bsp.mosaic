@@ -2,5 +2,7 @@
 <metadata>
   <version>1000</version>
   <dependencies>
+    <dependency>plone.app.contenttypes:default</dependency>
+    <dependency>plone.app.mosaic:default</dependency>
   </dependencies>
 </metadata>
