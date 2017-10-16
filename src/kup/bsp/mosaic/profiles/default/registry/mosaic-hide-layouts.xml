@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<registry>
+  <record name="plone.app.mosaic.hidden_content_layouts">
+    <value>
+      <element>custom/basic.html</element>
+      <element>default/basic.html</element>
+    </value>
+  </record>
+</registry>
