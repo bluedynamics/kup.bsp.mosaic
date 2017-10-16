@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<registry>
+  <records prefix="plone.app.mosaic.app_tiles.plone_app_standardtiles_discussion"
+           interface="plone.app.mosaic.interfaces.ITile">
+    <value key="name">kup.bsp.mosaic.schema</value>
+    <value key="label">Tickerline</value>
+    <value key="category">applications</value>
+    <value key="tile_type">app</value>
+    <value key="default_value"></value>
+    <value key="read_only">false</value>
+    <value key="settings">true</value>
+    <value key="favorite">false</value>
+    <value key="rich_text">false</value>
+    <value key="weight">31</value>
+  </records>
+</registry>

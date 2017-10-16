@@ -12,4 +12,14 @@
       template="example_tile_simple.pt"
       title="Show Random Number"
   />
+  <plone:tile
+      add_permission="cmf.ModifyPortalContent"
+      class=".example_tile_schema.ExampleSchemaTile"
+      for="*"
+      name="kup.bsp.mosaic.schema"
+      permission="zope2.View"
+      schema=".example_tile_schema.IExampleTile"
+      template="example_tile_schema.pt"
+      title="Tickerline"
+  />
 </configure>
