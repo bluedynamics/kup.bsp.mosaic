@@ -16,7 +16,9 @@ Features
 - Installs Mosaic.
 - Sets Mosaic's ``layout_view`` as default for Document.
 - Create a custom site layout for Document.
-- Switch off default Document layout.
+- Switch off Basic layout.
+- add a simple tile showing a random number.
+- add a tile with schema adding some kind of note.
 
 
 Installation

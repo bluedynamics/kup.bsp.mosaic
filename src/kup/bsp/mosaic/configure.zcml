@@ -6,6 +6,7 @@
 
   <includeDependencies package="." />
 
+  <include package=".tiles" />
   <include file="layouts.zcml" />
 
   <genericsetup:registerProfile

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<registry>
+  <records prefix="plone.app.mosaic.app_tiles.kup_bsp_mosaic_simple"
+           interface="plone.app.mosaic.interfaces.ITile">
+    <value key="name">kup.bsp.mosaic.simple</value>
+    <value key="label">Random Number (1000-9999)</value>
+    <value key="category">applications</value>
+    <value key="tile_type">app</value>
+    <value key="default_value"></value>
+    <value key="read_only">true</value>
+    <value key="settings">false</value>
+    <value key="favorite">false</value>
+    <value key="rich_text">false</value>
+    <value key="weight">30</value>
+  </records>
+</registry>

@@ -1,0 +1,15 @@
+<configure
+    i18n_domain="kup.bsp.mosaic"
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone">
+  <include package="plone.tiles" file="meta.zcml" />
+  <plone:tile
+      add_permission="cmf.ModifyPortalContent"
+      class=".example_tile_simple.ExampleSimpleTile"
+      for="*"
+      name="kup.bsp.mosaic.simple"
+      permission="zope2.View"
+      template="example_tile_simple.pt"
+      title="Show Random Number"
+  />
+</configure>
