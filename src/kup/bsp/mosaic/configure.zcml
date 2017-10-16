@@ -6,6 +6,8 @@
 
   <includeDependencies package="." />
 
+  <include file="layouts.zcml" />
+
   <genericsetup:registerProfile
       name="default"
       title="Mosaic Example (by KuP)"

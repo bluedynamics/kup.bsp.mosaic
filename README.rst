@@ -8,14 +8,15 @@ kup.bsp.mosaic
 
 This is an example addon for Mosaic customization on Plone 5.1.x
 
-Hint :look at the commit history and diffs.
+Hint: look at the commit history and its diffs.
 
 Features
 --------
 
-- set ``mosaic_layout`` as default for Document
-- custom site layout for Document
-- switch off default Document layout
+- Installs Mosaic.
+- Sets Mosaic's ``layout_view`` as default for Document.
+- Create a custom site layout for Document.
+- Switch off default Document layout.
 
 
 Installation

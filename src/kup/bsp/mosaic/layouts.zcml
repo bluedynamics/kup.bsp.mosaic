@@ -1,0 +1,12 @@
+<configure
+    i18n_domain="plone"
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone">
+
+  <plone:static
+      directory="layouts/content"
+      name="kup.bsp.mosaic"
+      type="contentlayout"
+      />
+
+</configure>
