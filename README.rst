@@ -19,6 +19,7 @@ Features
 - Switch off Basic layout.
 - add a simple tile showing a random number.
 - add a tile with schema adding some kind of note.
+- enable and use site layouts.
 
 
 Installation

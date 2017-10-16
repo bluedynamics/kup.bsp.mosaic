@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<registry>
+  <!--
+    default site layout
+  -->
+  <record name="plone.defaultSiteLayout">
+    <value>++sitelayout++kup.bsp.mosaic/bsp.html</value>
+  </record>
+</registry>

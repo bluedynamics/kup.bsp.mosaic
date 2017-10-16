@@ -6,8 +6,9 @@
 
   <includeDependencies package="." />
 
-  <include package=".tiles" />
+  <!-- include layouts before tiles -->
   <include file="layouts.zcml" />
+  <include package=".tiles" />
 
   <genericsetup:registerProfile
       name="default"

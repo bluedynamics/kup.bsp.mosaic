@@ -3,6 +3,18 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:plone="http://namespaces.plone.org/plone">
 
+  <!--enabled usage of site-layouts -->
+  <include
+      file="sitelayouts-meta.zcml"
+      package="plone.app.mosaic"
+  />
+  <plone:static
+      directory="layouts/site"
+      name="kup.bsp.mosaic"
+      type="sitelayout"
+      />
+
+  <!-- content layouts -->
   <plone:static
       directory="layouts/content"
       name="kup.bsp.mosaic"
