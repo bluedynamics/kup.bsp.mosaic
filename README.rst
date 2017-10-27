@@ -10,6 +10,10 @@ This is an example addon for Mosaic customization on Plone 5.1.x
 
 Hint: look at the commit history and its diffs.
 
+It was created for my talk at Plone Conference 2017, Barcelona/
+
+see also the  `slides <https://drive.google.com/file/d/0B965hznIpujxM1htU1YwWkFOWjQ/view>`_ and the more verbose `document <https://drive.google.com/file/d/0B965hznIpujxVy1lZnpfV2F6NkU/view>`_
+
 Features
 --------
 
